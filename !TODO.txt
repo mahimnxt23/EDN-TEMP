@@ -1,0 +1,15 @@
+MAIN TODO-1: hook all project works to their responding dedicated pages  (DONE 👍)
+
+    ==> SUB TASK-1: change image layout in project(1...8).html where it causes blurry photos  (NOT DONE ❌)
+
+
+
+MAIN TODO-2: vigorously check all website responsiveness  (NOT DONE ❌)
+
+    ==> SUB TASK-1: change all sub pages {<header> & <footer>} to match with homepage  (NOT DONE ❌)
+
+
+
+MAIN TODO-3: add utility classes to some elements causing bad layout impression  (NOT DONE ❌)
+
+
