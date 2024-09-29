@@ -6,7 +6,7 @@ MAIN TODO-1: hook all project works to their responding dedicated pages  (DONE �
 
 MAIN TODO-2: vigorously check all website responsiveness  (NOT DONE ❌)
 
-    ==> SUB TASK-1: change all sub pages {<header> & <footer>} to match with homepage  (NOT DONE ❌)
+    ==> SUB TASK-1: change all sub pages {<header> & <footer>} to match with homepage  (DONE 👍)
 
 
 

@@ -3517,7 +3517,11 @@ footer
 
 ------------------------------------------- */
 .mil-footer-menu {
-	margin-bottom: 120px;
+	margin-bottom: 90px;
+}
+.mil-footer-menu ul {
+	display: flex;
+	justify-content: space-between;
 }
 .mil-footer-menu ul li {
 	list-style-type: none;
@@ -3526,7 +3530,7 @@ footer
 .mil-footer-menu ul li a {
 	display: block;
 	font-weight: 500;
-	font-size: 28px;
+	font-size: 30px;
 	color: rgba(255, 255, 255, 0.9);
 	-webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 	transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
@@ -4956,87 +4960,4 @@ html.is-animating .mil-menu-frame {
 	.mil-link {
 		margin-bottom: 50px;
 	}
-}
-
-/* Portfolio Popup Modal */
-.mil-cover img {
-	cursor: pointer;
-	transition: 0.3s;
-}
-
-.mil-cover img:hover {
-	opacity: 0.7;
-}
-
-/* Portfolio Popup Modal (background) */
-.popup-modal {
-	position: fixed;
-	z-index: 3;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	overflow: hidden;
-	background-color: rgba(0, 0, 0, 0.3);
-	-webkit-backdrop-filter: blur(10px);
-	backdrop-filter: blur(10px);
-
-	/* js will push "display: flex;" here */
-	justify-content: center;
-	align-items: center;
-	display: none; /* to hide popup modal */
-}
-
-/* Portfolio Popup Modal Content (Image) */
-.popup-modal-content {
-	max-width: 85vw;
-	max-height: 90vh;
-	width: auto;
-	height: auto;
-	margin: auto;
-	background-size: cover;
-	display: block;
-}
-
-/* Add Animation - Zoom in Portfolio Popup Modal */
-.popup-modal-content {
-	animation-name: zoom;
-	animation-duration: 0.5s;
-}
-
-@keyframes zoom {
-	from {
-		transform: scale(0);
-	}
-	to {
-		transform: scale(1);
-	}
-}
-
-/* Portfolio Popup Close Button */
-.popup-close {
-	position: absolute;
-	top: 15px;
-	right: 67px;
-	color: #f1f1f1;
-	font-size: 40px;
-	font-weight: bold;
-	transition: 0.3s;
-}
-
-/* Adjustment of close button on smaller screens */
-/* @media (max-width: 600px) { */
-@media (min-width: 400px) and (max-width: 1200px) {
-	.popup-close {
-		top: 85px;
-		right: 35px;
-		font-size: 50px;
-	}
-}
-
-.popup-close:hover,
-.popup-close:focus {
-	color: #bbb;
-	text-decoration: none;
-	cursor: pointer;
 }

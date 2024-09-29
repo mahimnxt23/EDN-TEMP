@@ -1154,27 +1154,4 @@ $(function () {
 			},
 		});
 	});
-
-	// Portfolio Popup Modal Handler
-	var popupModal = document.getElementById("imagePopupModal");
-	var images = document.querySelectorAll(".mil-cover img");
-	var modalImg = document.getElementById("popup-img");
-
-	images.forEach((img) => {
-		img.onclick = function () {
-			popupModal.style.display = "flex";
-			modalImg.src = this.src;
-		};
-	});
-
-	var span = document.getElementsByClassName("popup-close")[0];
-	span.onclick = function () {
-		popupModal.style.display = "none";
-	};
-
-	popupModal.onclick = function (event) {
-		if (event.target == popupModal) {
-			popupModal.style.display = "none";
-		}
-	};
 });
