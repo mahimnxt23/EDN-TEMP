@@ -1,12 +1,18 @@
-MAIN TODO-1: hook all project works to their responding dedicated pages  (DONE 👍)
+responses == (DONE 👍)  or  (NOT DONE ❌)
+
+
+
+MAIN TODO-1: hook all project works to their responding dedicated pages  (NOT DONE ❌)
 
     ==> SUB TASK-1: change image layout in project(1...8).html where it causes blurry photos  (NOT DONE ❌)
+
+    ==> SUB TASK-2: setup services.html to respond accordingly  (NOT DONE ❌)
 
 
 
 MAIN TODO-2: vigorously check all website responsiveness  (NOT DONE ❌)
 
-    ==> SUB TASK-1: change all sub pages {<header> & <footer>} to match with homepage  (DONE 👍)
+    ==> SUB TASK-1: change all sub pages {<header> & <footer>} to match with homepage  (NOT DONE ❌)
 
 
 
