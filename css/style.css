@@ -1112,6 +1112,17 @@ spaces
 	margin-bottom: 40px;
 }
 
+.mil-mb-50 {
+	margin-bottom: 50px;
+}
+
+/* for mobile phones */
+@media (max-width: 760px) {
+	.mil-mb-50 {
+		margin-bottom: 0px;
+	}
+}
+
 .mil-mb-60 {
 	margin-bottom: 60px;
 }
@@ -1289,7 +1300,8 @@ spaces
 .paraText {
 	font-family: "ethosnova" !important;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 16px;
+	word-spacing: 1.5px;
 }
 
 .bgColor {
@@ -3168,7 +3180,7 @@ social icons
 
 /* -------------------------------------------
 
-revievs
+reviews
 
 ------------------------------------------- */
 .mil-revi-pagination {
