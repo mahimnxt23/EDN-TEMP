@@ -20,6 +20,6 @@ MAIN TODO-3: add utility classes to some elements causing bad layout impression 
 
 
 
-MAIN TODO-4: change blog related pages, contact and team page layout to match with others  (NOT DONE ❌)
+MAIN TODO-4: change blog related pages, contact and team page layout to match with others  (DONE 👍)
 
 
