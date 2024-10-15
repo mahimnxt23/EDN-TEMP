@@ -1609,7 +1609,16 @@ frame
 	.mil-frame .mil-frame-top .mil-menu-btn span,
 	.mil-frame .mil-frame-top .mil-menu-btn span:after,
 	.mil-frame .mil-frame-top .mil-menu-btn span:before {
-		background: rgb(255, 255, 255);
+		/* background: rgb(255, 255, 255); */
+		background: linear-gradient(
+			135.72deg,
+			#09e5e5 -12.91%,
+			#12e6dc -0.28%,
+			#2beac5 20.76%,
+			#55f1a0 48.11%,
+			#8efa6d 79.68%,
+			#a8ff57 92.3%
+		);
 	}
 }
 
