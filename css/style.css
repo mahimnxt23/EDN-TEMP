@@ -1612,6 +1612,13 @@ frame
 		background: rgb(255, 255, 255);
 	}
 }
+
+@media screen and (max-width: 640px) {
+	.mil-frame .mil-frame-top {
+		border-bottom: none;
+	}
+}
+
 .mil-frame .mil-frame-bottom {
 	width: 100%;
 	display: -webkit-box;
