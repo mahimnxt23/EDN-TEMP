@@ -2,24 +2,5 @@ responses == (DONE 👍)  or  (NOT DONE ❌)
 
 
 
-MAIN TODO-1: hook all project works to their responding dedicated pages  (DONE 👍)
-
-    ==> SUB TASK-1: change image layout in project(1...8).html where it causes blurry photos  (NOT DONE ❌)
-
-    ==> SUB TASK-2: setup services.html to respond accordingly  (DONE 👍)
-
-
-
-MAIN TODO-2: vigorously check all website responsiveness  (DONE 👍)
-
-    ==> SUB TASK-1: change all sub pages {<header> & <footer>} to match with homepage  (DONE 👍)
-
-
-
-MAIN TODO-3: add utility classes to some elements causing bad layout impression  (DONE 👍)
-
-
-
-MAIN TODO-4: change blog related pages, contact and team page layout to match with others  (DONE 👍)
-
+MAIN TODO-1: project-5.html needs rework, it's incomplete  (NOT DONE ❌)
 
