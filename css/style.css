@@ -1600,7 +1600,7 @@ frame
 	.mil-frame .mil-frame-top {
 		height: 90px;
 		background-color: transparent;
-		border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+		/* border-bottom: solid 1px rgba(255, 255, 255, 0.1); */
 		padding: 0 30px;
 	}
 	.mil-frame .mil-frame-top .mil-logo {
@@ -1619,12 +1619,6 @@ frame
 			#8efa6d 79.68%,
 			#a8ff57 92.3%
 		);
-	}
-}
-
-@media screen and (max-width: 640px) {
-	.mil-frame .mil-frame-top {
-		border-bottom: none;
 	}
 }
 
